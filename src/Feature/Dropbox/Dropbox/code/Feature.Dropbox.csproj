@@ -162,8 +162,6 @@
     <Compile Include="DropboxSettings.cs" />
     <Compile Include="Extensions\DropboxEndpointExtensions.cs" />
     <Compile Include="Models\DropboxEndpointItemModel.cs" />
-    <Compile Include="Models\DropboxModels\DropboxEntry.cs" />
-    <Compile Include="Models\DropboxModels\DropboxMetadata.cs" />
     <Compile Include="Models\ReadDropboxFileItemModel.cs" />
     <Compile Include="Plugins\DropboxSettings.cs" />
     <Compile Include="Processors\DropboxFileProcessor.cs" />
