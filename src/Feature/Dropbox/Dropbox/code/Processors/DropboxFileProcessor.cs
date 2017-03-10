@@ -66,7 +66,7 @@ namespace Feature.Dropbox.Processors
             var dataSettings = new IterableDataSettings(dropboxEntries);
             logger.Info(
                 "{0} rows were read from the file. (pipeline step: {1}, endpoint: {2})",
-                lines.Count, pipelineStep.Name, endpoint.Name);
+               dropboxEntries.Count, pipelineStep.Name, endpoint.Name);
             //
             //add the plugin to the pipeline context
             pipelineContext.Plugins.Add(dataSettings);
