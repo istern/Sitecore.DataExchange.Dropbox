@@ -1,0 +1,19 @@
+{
+    "configurationTransform": {
+      "AlwaysApplyName": "debug"
+    },
+    "msbuild": {
+      "showError": false,
+      "showStandardOutput": false,
+      "toolsversion": 14.0,
+      "verbosity": "minimal"
+    },
+    "configs": [
+      {
+        "name": "debug",
+        "rootFolder": "D:\\Websites\\Sitecore.DataExchange.Dropbox.local",
+        "websiteRoot" :"D:\\Websites\\Sitecore.DataExchange.Dropbox.local\\Website",
+        "websiteDataRoot" :"D:\\Websites\\Sitecore.DataExchange.Dropbox.local\\Website\\Data"
+      }
+    ]
+}
