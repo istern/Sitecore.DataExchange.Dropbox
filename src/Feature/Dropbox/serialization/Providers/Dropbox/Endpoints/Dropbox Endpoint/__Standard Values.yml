@@ -1,0 +1,18 @@
+﻿---
+ID: "09d3b7f1-b942-41ed-a699-345e33879798"
+Parent: "4001b69a-0043-458b-9652-90bf6f4be1ea"
+Template: "4001b69a-0043-458b-9652-90bf6f4be1ea"
+Path: /sitecore/templates/Data Exchange/Providers/Dropbox/Endpoints/Dropbox Endpoint/__Standard Values
+DB: master
+SharedFields:
+- ID: "3c7f78cc-0c5c-4076-80ef-9a49fda5ff96"
+  Hint: ConverterType
+  Value:  ,Feature.Dropbox.Converters.DropboxEndpointConverter,Feature.Dropbox
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170310T191347Z

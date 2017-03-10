@@ -1,0 +1,52 @@
+﻿---
+ID: "9ad2d554-0697-474e-986e-e3a5bd93fa40"
+Parent: "ff0bc016-2d01-4f55-a020-ef6fc2fe7559"
+Template: "664e5035-eb8c-4ba1-9731-a098fcc9127a"
+Path: "/sitecore/system/Settings/Rules/Insert Options/Rules/Data Exchange -Dropbox Provider"
+DB: master
+SharedFields:
+- ID: "fa307b86-da2a-44bd-887d-e2057cdb4948"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{73DFD2BA-397E-4EC8-A15E-3A3EFCD24F57}"
+        name="Dropbox insert Dataexchange">
+        <actions>
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="E7BB8EE7390647E0804F96D0E0CA9944"
+            insertoptionid="{B6816E3E-57EC-428A-891C-12A3E672E0EF}" />
+        </actions>
+        <conditions>
+          <and
+            uid="4B15D6229DC54C8D9FCDDD0EF925DFC0">
+            <condition
+              id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}"
+              uid="22F1268A07FB497B8DDC75644C524DCB"
+              templateid="{6F05FFD0-4C1B-44AE-87E5-B015E1DAC352}" />
+            <condition
+              id="{5CD2292C-32AC-4976-AA4F-A741555D22F8}"
+              uid="82232EB09013415794C13F01B7EB26FF"
+              query="./*[@@templateid='{4001B69A-0043-458B-9652-90BF6F4BE1EA}']"
+              except="true" />
+          </and>
+        </conditions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170310T195057Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9e0287d9-af90-41ad-8d36-332375e194d6"
+      Hint: Name
+      Value: Add insert options for the dROPBOX provider for the Data Exchange Framework

@@ -1,0 +1,24 @@
+﻿---
+ID: "cb58e683-6062-407b-9499-3fb73ba8ac53"
+Parent: "69537e60-8b38-44fb-8108-6058f62e1029"
+Template: "69537e60-8b38-44fb-8108-6058f62e1029"
+Path: /sitecore/templates/Data Exchange/Providers/Dropbox/Pipeline Steps/Read Dropbox Files/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/gear.png
+- ID: "3c7f78cc-0c5c-4076-80ef-9a49fda5ff96"
+  Hint: ConverterType
+  Value: Feature.Dropbox.Converters.DropboxReadFileStepConverter,Feature.Dropbox
+- ID: "a83a2eb2-bfa1-4d3f-9f17-0cc6c9a91c42"
+  Hint: ProcessorType
+  Value: Feature.Dropbox.Processosr.DropboxFileProcessor,Feature.Dropbox
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170310T205919Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "b6816e3e-57ec-428a-891c-12a3e672e0ef"
+Parent: "4691a2fa-b81b-4713-98ed-5131ac1f5e42"
+Template: "b2613cc1-a748-46a3-a0db-3774574bd339"
+Path: /sitecore/templates/Branches/Data Exchange/Providers/Dropbox/Commands/Dropbox Endpoint Root
+DB: master
+BranchID: "d1dcfbcc-dacc-414f-bdc4-8a3e1c41988b"
+SharedFields:
+- ID: "854cc8f6-94ad-4521-a4b6-44ed8f794c98"
+  Hint: Command
+  Value: "dataExchange:createItemWithoutPromptingForNameCommand(settingsItem={B6816E3E-57EC-428A-891C-12A3E672E0EF})"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170310T194355Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

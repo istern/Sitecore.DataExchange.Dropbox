@@ -1,0 +1,19 @@
+﻿---
+ID: "eb058426-81db-4980-b4d0-da8057a7fb1c"
+Parent: "b7350062-54c9-4fdd-80e5-8a4d0388201b"
+Template: "b7350062-54c9-4fdd-80e5-8a4d0388201b"
+Path: /sitecore/templates/Data Exchange/Providers/Dropbox/Folders/Dropox Endpoints Root/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{4001B69A-0043-458B-9652-90BF6F4BE1EA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170310T193703Z
